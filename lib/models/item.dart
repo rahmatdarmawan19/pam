@@ -1,3 +1,5 @@
+import 'dart:math';
+
 class Item {
   int id;
   String name;
@@ -6,5 +8,5 @@ class Item {
   Item({
     required this.name,
     this.isDone = false,
-  }) : this.id = random().nextint(1000);
+  }) : this.id = Random().nextInt(1000);
 }
