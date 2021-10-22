@@ -5,6 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Dart: Attach to Process",
+            "type": "dart",
+            "request": "attach"
+        },
+        {
             "name": "pam",
             "request": "launch",
             "type": "dart"
@@ -14,6 +19,13 @@
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
+        },
+        {
+            "name": "Flutter (lib\\main.dart)",
+            "type": "dart",
+            "request": "launch",
+            "cwd": "todoapp",
+            "program": "lib\\main.dart"
         }
     ]
 }
